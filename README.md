@@ -67,7 +67,7 @@ An easy way to get started with Neural Tangents is by playing around with the fo
 To use GPU, first follow [JAX's](https://www.github.com/google/jax/) GPU installation instructions. Otherwise, install JAX on CPU by running
 
 ```
-pip install jax jaxlib --upgrade
+pip install jax=0.4.34 jaxlib=0.4.34
 ```
 
 Once JAX is installed install Neural Tangents by running
